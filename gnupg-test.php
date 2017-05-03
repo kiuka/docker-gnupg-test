@@ -1,5 +1,6 @@
 <?php
 
+putenv('GPGME_DEBUG=9:' . __DIR__ . '/gnupg.log');
 putenv('GNUPGHOME=' . __DIR__ . '/.gnupg');
 
 $gnupg = new \gnupg();

@@ -1,0 +1,153 @@
+GPGME 2017-05-03 10:51:45 <0x0018>  gpgme_debug: level=9
+GPGME 2017-05-03 10:51:45 <0x0018>  gpgme_check_version: call: 0=(nil), req_version=(null), VERSION=1.5.1
+GPGME 2017-05-03 10:51:45 <0x0018>  gpgme_check_version_internal: call: 0=(nil), req_version=(null), offset_sig_validity=60
+GPGME 2017-05-03 10:51:45 <0x0018>  gpgme_new: enter: r_ctx=0x7ffcd760f2d8
+GPGME 2017-05-03 10:51:45 <0x0018>  gpgme-dinfo: gpgconf='/usr/bin/gpgconf'
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_pipe: enter: filedes=0x7ffcd760ece0, inherit_idx=1 (GPGME uses it for reading)
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_pipe: leave: read=0x5, write=0x6
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: enter: path=0x5579656762a0, path=/usr/bin/gpgconf
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, argv[ 0] = /usr/bin/gpgconf
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, argv[ 1] = --list-dirs
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, fd[0] = 0x6 -> 0x1
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, waiting for child process pid=25
+GPGME 2017-05-03 10:51:45 <0x001a>      gpgme:max_fds: call: 0=(nil), max fds=1048576 (RLIMIT_NOFILE)
+GPGME 2017-05-03 10:51:45 <0x0018>      _gpgme_io_close: enter: fd=0x6
+GPGME 2017-05-03 10:51:45 <0x0018>      _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: enter: fd=0x5, buffer=0x7ffcd760ed40, count=1023
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 737973636f6e6664 69723a2f6574632f sysconfdir:/etc/
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 676e757067320a62 696e6469723a2f75 gnupg2.bindir:/u
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 73722f62696e0a6c 6962657865636469 sr/bin.libexecdi
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 723a2f7573722f6c 69622f676e757067 r:/usr/lib/gnupg
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 320a6c6962646972 3a2f7573722f6c69 2.libdir:/usr/li
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 622f7838365f3634 2d6c696e75782d67 b/x86_64-linux-g
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 6e752f676e757067 320a646174616469 nu/gnupg2.datadi
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 723a2f7573722f73 686172652f676e75 r:/usr/share/gnu
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 7067320a6c6f6361 6c656469723a2f75 pg2.localedir:/u
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 73722f7368617265 2f6c6f63616c650a sr/share/locale.
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 6469726d6e67722d 736f636b65743a2f dirmngr-socket:/
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 7661722f72756e2f 6469726d6e67722f var/run/dirmngr/
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 736f636b65740a61 67656e742d736f63 socket.agent-soc
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 6b65743a2f766172 2f7777772f68746d ket:/var/www/htm
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 6c2f2e676e757067 2f532e6770672d61 l/.gnupg/S.gpg-a
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 67656e740a686f6d 656469723a2f7661 gent.homedir:/va
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 722f7777772f6874 6d6c2f2e676e7570 r/www/html/.gnup
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 670a                              g.
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: leave: result=274
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: enter: fd=0x5, buffer=0x7ffcd760ed40, count=1023
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_close: enter: fd=0x5
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_pipe: enter: filedes=0x7ffcd760ece0, inherit_idx=1 (GPGME uses it for reading)
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_pipe: leave: read=0x5, write=0x6
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: enter: path=0x5579656762a0, path=/usr/bin/gpgconf
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, argv[ 0] = /usr/bin/gpgconf
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, argv[ 1] = --list-components
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, fd[0] = 0x6 -> 0x1
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, waiting for child process pid=27
+GPGME 2017-05-03 10:51:45 <0x001c>      gpgme:max_fds: call: 0=(nil), max fds=1048576 (RLIMIT_NOFILE)
+GPGME 2017-05-03 10:51:45 <0x0018>      _gpgme_io_close: enter: fd=0x6
+GPGME 2017-05-03 10:51:45 <0x0018>      _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: enter: fd=0x5, buffer=0x7ffcd760ed40, count=1023
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 6770673a47504720 666f72204f70656e gpg:GPG for Open
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 5047503a2f757372 2f62696e2f677067 PGP:/usr/bin/gpg
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 320a6770672d6167 656e743a47504720 2.gpg-agent:GPG 
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 4167656e743a2f75 73722f62696e2f67 Agent:/usr/bin/g
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 70672d6167656e74 0a73636461656d6f pg-agent.scdaemo
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 6e3a536d61727463 617264204461656d n:Smartcard Daem
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 6f6e3a2f7573722f 6c69622f676e7570 on:/usr/lib/gnup
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 67322f7363646165 6d6f6e0a67706773 g2/scdaemon.gpgs
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 6d3a47504720666f 7220532f4d494d45 m:GPG for S/MIME
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 3a2f7573722f6269 6e2f677067736d0a :/usr/bin/gpgsm.
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 6469726d6e67723a 4469726563746f72 dirmngr:Director
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 79204d616e616765 723a2f7573722f62 y Manager:/usr/b
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 696e2f6469726d6e 67720a           in/dirmngr.
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: leave: result=203
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: enter: fd=0x5, buffer=0x7ffcd760ed40, count=1023
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_close: enter: fd=0x5
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>  gpgme-dinfo:     gpg='/usr/bin/gpg2'
+GPGME 2017-05-03 10:51:45 <0x0018>  gpgme-dinfo:   gpgsm='/usr/bin/gpgsm'
+GPGME 2017-05-03 10:51:45 <0x0018>  gpgme-dinfo: homedir='/var/www/html/.gnupg'
+GPGME 2017-05-03 10:51:45 <0x0018>  gpgme-dinfo:   agent='/var/www/html/.gnupg/S.gpg-agent'
+GPGME 2017-05-03 10:51:45 <0x0018>  gpgme-dinfo:   uisrv='/var/www/html/.gnupg/S.uiserver'
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_pipe: enter: filedes=0x7ffcd760f0d0, inherit_idx=1 (GPGME uses it for reading)
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_pipe: leave: read=0x5, write=0x6
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: enter: path=0x55796566f290, path=/usr/bin/gpg2
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x55796566f290, argv[ 0] = /usr/bin/gpg2
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x55796566f290, argv[ 1] = --version
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x55796566f290, fd[0] = 0x6 -> 0x1
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x55796566f290, waiting for child process pid=29
+GPGME 2017-05-03 10:51:45 <0x001e>      gpgme:max_fds: call: 0=(nil), max fds=1048576 (RLIMIT_NOFILE)
+GPGME 2017-05-03 10:51:45 <0x0018>      _gpgme_io_close: enter: fd=0x6
+GPGME 2017-05-03 10:51:45 <0x0018>      _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: enter: fd=0x5, buffer=0x7ffcd760f120, count=79
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 6770672028476e75 50472920322e302e gpg (GnuPG) 2.0.
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 32360a6c69626763 7279707420312e36 26.libgcrypt 1.6
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 2e330a436f707972 6967687420284329 .3.Copyright (C)
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 2032303133204672 656520536f667477  2013 Free Softw
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: check: 61726520466f756e 646174696f6e2c   are Foundation,
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: leave: result=79
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_close: enter: fd=0x5
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_pipe: enter: filedes=0x7ffcd760f0d0, inherit_idx=1 (GPGME uses it for reading)
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_pipe: leave: read=0x5, write=0x6
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: enter: path=0x55796566fcb0, path=/usr/bin/gpgsm
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x55796566fcb0, argv[ 0] = /usr/bin/gpgsm
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x55796566fcb0, argv[ 1] = --version
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x55796566fcb0, fd[0] = 0x6 -> 0x1
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x55796566fcb0, waiting for child process pid=31
+GPGME 2017-05-03 10:51:45 <0x0020>      gpgme:max_fds: call: 0=(nil), max fds=1048576 (RLIMIT_NOFILE)
+GPGME 2017-05-03 10:51:45 <0x0018>      _gpgme_io_close: enter: fd=0x6
+GPGME 2017-05-03 10:51:45 <0x0018>      _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: enter: fd=0x5, buffer=0x7ffcd760f120, count=79
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_close: enter: fd=0x5
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_pipe: enter: filedes=0x7ffcd760f0d0, inherit_idx=1 (GPGME uses it for reading)
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_pipe: leave: read=0x5, write=0x6
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: enter: path=0x5579656762a0, path=/usr/bin/gpgconf
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, argv[ 0] = /usr/bin/gpgconf
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, argv[ 1] = --version
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, fd[0] = 0x6 -> 0x1
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: check: path=0x5579656762a0, waiting for child process pid=33
+GPGME 2017-05-03 10:51:45 <0x0022>      gpgme:max_fds: call: 0=(nil), max fds=1048576 (RLIMIT_NOFILE)
+GPGME 2017-05-03 10:51:45 <0x0018>      _gpgme_io_close: enter: fd=0x6
+GPGME 2017-05-03 10:51:45 <0x0018>      _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_spawn: leave: result=0
+GPGME 2017-05-03 10:51:45 <0x0018>    _gpgme_io_read: enter: fd=0x5, buffer=0x7ffcd760f120, count=79
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_read: check: 677067636f6e6620 28476e7550472920 gpgconf (GnuPG) 
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_read: check: 322e302e32360a43 6f70797269676874 2.0.26.Copyright
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_read: check: 2028432920323031 3320467265652053  (C) 2013 Free S
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_read: check: 6f66747761726520 466f756e64617469 oftware Foundati
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_read: check: 6f6e2c20496e632e 0a4c6963656e73   on, Inc..Licens
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_read: leave: result=79
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_close: enter: fd=0x5
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_new: leave: ctx=0x5579656761c0
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_set_armor: call: ctx=0x5579656761c0, use_armor=1 (yes)
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_data_new_from_mem: enter: r_dh=0x7ffcd760f310, buffer=0x7f382d27d018, size=1776, copy=0 (no)
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_data_new_from_mem: leave: dh=0x557965676c60
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_op_import: enter: ctx=0x5579656761c0, keydata=0x557965676c60
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_pipe: enter: filedes=0x557965677cf8, inherit_idx=1 (GPGME uses it for reading)
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_pipe: leave: read=0x5, write=0x6
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_set_close_notify: enter: fd=0x5, close_handler=0x7f382cdd4d30/0x557965677cd0
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_set_close_notify: leave: result=0
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_set_close_notify: enter: fd=0x6, close_handler=0x7f382cdd4d30/0x557965677cd0
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_set_close_notify: leave: result=0
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_close: enter: fd=0x5
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_close: check: fd=0x5, invoking close handler 0x7f382cdd4d30/0x557965677cd0
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_close: enter: fd=0x6
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_close: check: fd=0x6, invoking close handler 0x7f382cdd4d30/0x557965677cd0
+GPGME 2017-05-03 10:51:46 <0x0018>    _gpgme_io_close: leave: result=0
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_op_import: error: Inappropriate ioctl for device <GPGME>
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_data_release: call: dh=0x557965676c60
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_get_key: enter: ctx=0x5579656761c0, fpr=, secret=1
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_get_key: error: Invalid value <GPGME>
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_signers_clear: call: ctx=0x5579656761c0
+GPGME 2017-05-03 10:51:46 <0x0018>  gpgme_release: call: ctx=0x5579656761c0
